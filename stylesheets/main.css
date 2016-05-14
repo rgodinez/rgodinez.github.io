@@ -20,12 +20,13 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    font-style: bold;
+    font-weight: bold;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    border-bottom, border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
 }
 p {
     font-size: 1.5em;
