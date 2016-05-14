@@ -8,7 +8,7 @@ title: Frets and Musings
 		{% for post in paginator.posts %}
 		 <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }} title="{{ post.title }}">{{ post.title }}</a></li>
 		  <div class="content">
-		 	{{ post.content | strip_html | truncate: 100 }}
+		 	{{ post.content | strip_html | truncatewords: 50 }}
 		  </div>
 		 {% endfor %}
 		 
