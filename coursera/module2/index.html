@@ -5,6 +5,12 @@
 
 <style>
 /*  Base styles  */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: "lucida console";
   font-variant: small-caps;
@@ -17,20 +23,23 @@ h1 {
 section {
   background-color: #7BBCD9;
   border: 1px solid black;
-  margin: 5%;
+  margin: 1.67%;
 }
 
 #section1 {
   color: #000000;
   background-color: #9D8ECC;
+  float: left;
 }
 
 #section2 {
   color: #000000;
+  float: right;
 }
 
 #section3 {
   color: #000000;
+  float: right;
 }
 
 h2 {
@@ -61,6 +70,11 @@ p {
 @media (min-width: 992px) {
   section {
     width: 33%;
+    float: left;
+  }
+
+  #section3 {
+    float: right;
   }
 }
 
