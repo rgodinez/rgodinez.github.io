@@ -23,6 +23,17 @@ a {
     padding: 20px;
 }
 
+/* Considering making id for button */
+button {
+    background-color: black;
+    color: #999;
+}
+
+button:hover {
+    background-color: #999;
+    color: black;
+}
+
 ul.posts li a:hover {
     font-weight: bold;
     text-decoration: underline;
@@ -32,6 +43,7 @@ nav ul li a:hover, footer ul li a:hover {
     color: black;
     background-color: #999;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
