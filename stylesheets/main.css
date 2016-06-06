@@ -6,6 +6,7 @@ body {
 }
 nav {
     border-bottom: 4px double #d5d5d5;
+    padding-bottom: 4px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,15 +16,16 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
 }
 a {
     text-decoration: none;
     color: #999;
+    padding: 20px;
 }
 a:hover {
-    text-decoration: underline;
     font-weight: bold;
+    color: black;
+    background-color: #999;
 }
 h1 {
     font-size: 3em;
