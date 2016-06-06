@@ -23,7 +23,7 @@ a {
     padding: 20px;
 }
 
-ul.posts li a {
+ul.posts li a:hover {
     font-weight: bold;
     text-decoration: underline;
 }
