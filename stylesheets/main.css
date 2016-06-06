@@ -25,8 +25,14 @@ a {
 
 /* Considering making id for button */
 button {
+    border: none;
+    font-weight: bold;
     background-color: black;
     color: #999;
+    float: right;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
 }
 
 button:hover {
