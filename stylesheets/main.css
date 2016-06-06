@@ -22,8 +22,13 @@ a {
     color: #999;
     padding: 20px;
 }
-a:hover {
+
+ul.posts li a {
     font-weight: bold;
+    text-decoration: underline;
+}
+
+nav ul il a:hover {
     color: black;
     background-color: #999;
 }
