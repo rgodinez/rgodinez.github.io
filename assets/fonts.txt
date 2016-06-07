@@ -1,0 +1,26 @@
+- Include <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Font+Name"> at the head
+  - to use, set font-family to Font Name for selector
+  
+font-family: 'Indie Flower', cursive;
+
+font-family: 'Shadows Into Light', cursive;
+
+font-family: 'Kaushan Script', cursive;
+
+font-family: 'Gloria Hallelujah', cursive;
+
+font-family: 'Yellowtail', cursive;
+
+font-family: 'Rock Salt', cursive;
+
+font-family: 'Bad Script', cursive;
+
+font-family: 'Homemade Apple', cursive;
+
+font-family: 'Calligraffitti', cursive;
+
+font-family: 'Nothing You Could Do', cursive;
+
+font-family: 'Reenie Beanie', cursive;
+
+font-family: 'Parisienne', cursive;
