@@ -24,3 +24,65 @@ font-family: 'Nothing You Could Do', cursive;
 font-family: 'Reenie Beanie', cursive;
 
 font-family: 'Parisienne', cursive;
+
+font-family: 'Voltaire', sans-serif;
+
+font-family: 'Alegreya Sans SC', sans-serif;
+
+font-family: 'Syncopate', sans-serif;
+
+font-family: 'Julius Sans One', sans-serif;
+
+font-family: 'Aclonica', sans-serif;
+
+font-family: 'Lekton', sans-serif;
+
+font-family: 'Nova Mono', ;
+
+font-family: 'Share Tech Mono', ;
+
+font-family: 'Poiret One', cursive;
+
+font-family: 'Playball', cursive;
+
+font-family: 'Special Elite', cursive;
+
+font-family: 'Fredericka the Great', cursive;
+
+font-family: 'Cabin Sketch', cursive;
+
+font-family: 'Forum', cursive;
+
+font-family: 'Finger Paint', cursive;
+
+font-family: 'Kelly Slab', cursive;
+
+font-family: 'Cinzel Decorative', cursive;
+
+font-family: 'Allan', cursive;
+
+font-family: 'Seaweed Script', cursive;
+
+font-family: 'Iceland', cursive;
+
+font-family: 'Dynalight', cursive;
+
+font-family: 'Sarina', cursive;
+
+font-family: 'Offside', cursive;
+
+font-family: 'Trade Winds', cursive;
+
+font-family: 'Macondo Swash Caps', cursive;
+
+font-family: 'Uncial Antiqua', cursive;
+
+font-family: 'Cinzel', serif;
+
+font-family: 'Marcellus', serif;
+
+font-family: 'IM Fell English SC', serif;
+
+font-family: 'IM Fell DW Pica SC', serif;
+
+font-family: 'Almendra SC', serif;
