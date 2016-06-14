@@ -14,13 +14,13 @@
 }
 
 @media (min-width: 768px) {
-  .container-fluid {
+  #content {
     width: 98%;
   }
 }
 
 @media (max-width: 767px) {
-  .container-fluid {
+  #content {
     width: 80%;
   }
 }
