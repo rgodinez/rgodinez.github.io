@@ -25,10 +25,7 @@
   #content {
     width: 98%;
   }
-  
-  #nav-list {
-    display: none;
-  }
+
 }
 
 @media (max-width: 767px) {
