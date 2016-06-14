@@ -17,6 +17,10 @@
   clear: both;
 }
 
+#nav-list a {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   #content {
     width: 98%;
