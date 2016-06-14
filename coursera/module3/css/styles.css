@@ -1,9 +1,6 @@
-.container-fluid {
+.col-xs-12 {
   background-color: black;
   color: white;
   min-height: 1000px;
-}
-
-.row {
   width: 90%;
 }
