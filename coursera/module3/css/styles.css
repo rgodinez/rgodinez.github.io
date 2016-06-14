@@ -13,6 +13,10 @@
   border: ;
 }
 
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
 @media (min-width: 768px) {
   #content {
     width: 98%;
