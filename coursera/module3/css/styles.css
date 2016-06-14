@@ -3,3 +3,7 @@
   color: white;
   min-width: 1000px;
 }
+
+.row {
+  width: 0.9;
+}
