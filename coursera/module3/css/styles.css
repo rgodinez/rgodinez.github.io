@@ -21,14 +21,14 @@
   #content {
     width: 98%;
   }
+  
+  #collapsable-nav {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
   #content {
     width: 80%;
-  }
-  
-  #collapsable-nav {
-    display: none;
   }
 }
