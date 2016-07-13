@@ -53,8 +53,10 @@ nav ul li a:hover, footer ul li a:hover {
 h1 {
     font-size: 2.5em;
     font-family: 'Rock Salt', cursive;
+	font-style: italic;
 }
 p {
+	font-family: 'Nothing You Could Do', cursive;
     font-size: 1.0em;
     line-height: 1.4em;
     color: #D5D5D5;
