@@ -4,19 +4,6 @@ import os
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 def writeFile(postTitle):
 	date = time.strftime('%Y-%m-%d')
 	path = os.getcwd() + '\\_posts\\'
