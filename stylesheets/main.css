@@ -1,15 +1,15 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: darkslateblue;
-    color: #D5D5D5;
+    background-color: #E4D9FF;
+    color: #273469;
 }
 nav {
-    border-bottom: 4px double #d5d5d5;
+    border-bottom: 4px double #273469;
     padding-bottom: 4px;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Rock Salt', cursive;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -19,7 +19,6 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #D5D5D5;
     padding: 20px;
 }
 
@@ -27,8 +26,6 @@ a {
 button {
     border: none;
     font-weight: bold;
-    background-color: darkslateblue;
-    color: #D5D5D5;
     float: right;
     padding: 20px;
     position: relative;
@@ -36,8 +33,8 @@ button {
 }
 
 button:hover {
-    background-color: #D5D5D5;
-    color: darkslateblue;
+    background-color: #273469;
+    color: #E4D9FF;
 }
 
 ul.posts li a:hover {
@@ -46,8 +43,8 @@ ul.posts li a:hover {
 }
 
 nav ul li a:hover, footer ul li a:hover {
-    color: darkslateblue;
-    background-color: #D5D5D5;
+    color: #E4D9FF;
+    background-color: #273469;
 }
 
 h1 {
@@ -59,10 +56,9 @@ p {
 	font-family: 'Nothing You Could Do', cursive;
     font-size: 1.0em;
     line-height: 1.4em;
-    color: #D5D5D5;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #273469;
     font-size: .8em;
     padding-top: 8px;
 }
@@ -74,4 +70,5 @@ ul.posts {
 ul.posts li {
     list-style: none;
     font-size: 1.5em;
+	font-family: 'Nothing You Could Do', cursive;
 }
