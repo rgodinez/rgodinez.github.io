@@ -5,13 +5,15 @@
     <title>Demo</title>
 </head>
 <body>
-    <a href="http://jquery.com/">jQuery</a>
-    <script src="jquery.js"></script>
+    <a href="http://jquery.com/">Take a look at jQuery</a>
+    <script src="jquery-3.1.0.slim.min.js"></script>
     <script>
  
       $( document ).ready(function() {
         $( "a" ).click(function( event ) {
             alert( "Thanks for visiting!" );
+			event.preventDefault();
+			$( "body" ).append( "<h1>JK LOL, GET REKT</h1>");
         });
       }); 
     
