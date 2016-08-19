@@ -4,17 +4,19 @@ body {
     background-color: #E4D9FF;
     color: #273469;
 }
-nav {
-    border-bottom: 4px double #273469;
-    padding-bottom: 4px;
-}
+
 nav ul, footer ul {
     font-family: 'Rock Salt', cursive;
     padding: 0px;
-    list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+nav > li {
+	display: table-cell;
+	min-width: 100px;
+}
+
+footer > li {
     display: inline;
 }
 a {
@@ -43,7 +45,7 @@ ul.posts li a:hover {
     text-decoration: underline;
 }
 
-nav ul li a:hover, footer ul li a:hover {
+nav > li > a:hover, footer ul li a:hover {
     color: #E4D9FF;
     background-color: #273469;
 }
@@ -63,10 +65,6 @@ footer {
     border-top: 1px solid #273469;
     font-size: .8em;
     padding-top: 8px;
-}
-
-ul.posts { 
-    
 }
 
 ul.posts li {
