@@ -5,6 +5,10 @@ body {
     color: #273469;
 }
 
+.nav {
+	padding-left: 30px;
+}
+
 nav ul, footer ul {
     font-family: 'Rock Salt', cursive;
     padding: 0px;
@@ -55,10 +59,11 @@ h1 {
     font-size: 2.5em;
     font-family: 'Rock Salt', cursive;
 	font-style: italic;
+	padding: 25px 0px;
 }
 p {
 	font-family: 'Nothing You Could Do', cursive;
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.4em;
 	font-weight: bold;
 }
