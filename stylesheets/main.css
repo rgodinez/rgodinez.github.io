@@ -9,12 +9,11 @@ nav ul, footer ul {
     font-family: 'Rock Salt', cursive;
     padding: 0px;
     font-weight: bold;
-	list-style: none;
 	display: -webkit-box;
 }
 
-nav > li {
-	display: table-cell;
+.nav > li > a {
+	text-align: center;
 	min-width: 100px;
 }
 
@@ -24,7 +23,6 @@ footer > li {
 a {
 	color: #273469;
     text-decoration: none;
-    padding: 20px;
 }
 
 /* Considering making id for button */
@@ -47,9 +45,10 @@ ul.posts li a:hover {
     text-decoration: underline;
 }
 
-a:hover {
+.nav > li > a:hover {
     color: #E4D9FF;
     background-color: #273469;
+	text-decoration: none;
 }
 
 h1 {
@@ -64,7 +63,6 @@ p {
 	font-weight: bold;
 }
 footer {
-    border-top: 1px solid #273469;
     font-size: .8em;
     padding-top: 8px;
 }
