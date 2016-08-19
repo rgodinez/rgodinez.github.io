@@ -11,9 +11,10 @@ body {
 
 nav ul, footer ul {
     font-family: 'Rock Salt', cursive;
-    padding: 0px;
+    font-size: large;
     font-weight: bold;
 	display: -webkit-box;
+	padding: 0px;
 }
 
 .nav > li > a {
