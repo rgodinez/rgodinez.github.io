@@ -1,20 +1,38 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		
-	</head>
+<html ng-app="characterViewer">
 
-	<body>
-		<div>
-			Character Name: <input type="text" name="name"></input>
-			Server: <input type="text" name="server"></input>
-			<button type="submit" onclick="getCharacterData()">Get data</button>
-		</div>
-		
-		<div id="character"></div>
-		
-		
-	<!-- Javascript sources -->
-	<script src="main.js"></script>
-	</body>
+<head>
+  <script data-require="angular.js@*" data-semver="1.3.0.beta-5" src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+</head>
+
+<body ng-controller="MainController">
+  <form name="searchCharacter">
+    Character Name:
+    <input type="text" placeholder="Lustily" ng-model="name" /> Server:
+    <input type="text" placeholder="Dalaran" ng-model="server" />
+
+    <button type="submit" ng-click="getCharacterData()">Get Character Stats</button>
+    <button type="submit" ng-click="getArtifactData()">Get Artifact Traits</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr style="text-align:left;">
+        <th>Field</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="key in statsKeys">
+        <td>{{ key }}</td>
+        <td>{{ characterData['stats'][key] }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div id="artifact"></div>
+  <!-- Javascript sources -->
+  <script src="main.js"></script>
+</body>
+
 </html>
