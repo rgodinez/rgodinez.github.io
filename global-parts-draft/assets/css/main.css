@@ -2564,11 +2564,11 @@
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #001d4a;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #001d4a;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -3256,11 +3256,11 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #001d4a;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #001d4a;
 		}
 
 		.wrapper.style2 {
@@ -3383,7 +3383,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #001d4a;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
