@@ -3220,10 +3220,11 @@
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 1em 5em ;
 			max-width: 100%;
 			width: 75em;
-			background-color: rgba(187, 222, 240, 0.85);
+			background-color: rgba(187, 222, 240, 0.8);
+			margin-top: auto;
 		}
 
 			@media screen and (max-width: 1680px) {
@@ -3548,7 +3549,14 @@
 		width: 18em;
 		z-index: 10000;
 	}
-
+		
+		#sidebar .logo {
+			margin-top: -100%;
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
 		#sidebar > .inner {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3773,14 +3781,14 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #3e4094;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #001d4a, #eee);
+				background-image: -webkit-linear-gradient(to right, #001d4a, #eee);
+				background-image: -ms-linear-gradient(to right, #001d4a, #eee);
+				background-image: linear-gradient(to right, #001d4a, #eee);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3837,7 +3845,11 @@
 					height: inherit;
 					line-height: inherit;
 				}
-
+				
+				#sidebar .logo {
+					display: none;
+				}
+				
 				#sidebar nav {
 					height: inherit;
 					line-height: inherit;
@@ -3869,7 +3881,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #fff;
 						}
 
 		}
@@ -3887,7 +3899,7 @@
 	#intro {
 		background-attachment: fixed;
 		background-image: url("../../images/pexels-photo-401796.jpeg");
-		background-position: top left;
+		background-position: center	;
 		background-repeat: no-repeat;
 		background-size: initial;
 	}
