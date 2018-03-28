@@ -3314,8 +3314,7 @@
 			@media screen and (max-width: 736px) {
 
 				.wrapper.fullscreen {
-					padding: 2em 0;
-					min-height: 0;
+					min-height: 100vh;
 				}
 
 					body.is-ie .wrapper.fullscreen {
@@ -3889,7 +3888,7 @@
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+				
 			}
 
 		}
@@ -3930,4 +3929,12 @@
 				background-attachment: scroll;
 			}
 
+		}
+		
+		@media screen and (max-width: 736px) {
+			#intro {
+				background-image: url("../../images/logo.jpg");
+				background-position: center 5.5em;
+				background-size: initial;
+			}
 		}
