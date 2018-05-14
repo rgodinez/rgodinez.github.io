@@ -1598,7 +1598,7 @@
 				color: #484d55;
 			}
 
-			.wrapper.style3 .image {
+			.wrapper.style3 .image img {
 				border: solid 10px #171719;
 			}
 
@@ -1782,6 +1782,7 @@
 		height: 7.6em;
 		background-color: #171719;
 		width: auto;
+		margin: auto;
 	}
 
 /* Copyright */
