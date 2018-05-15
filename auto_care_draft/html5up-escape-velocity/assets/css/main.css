@@ -1704,6 +1704,12 @@
 		#footer-wrapper .feature-list h3:before {
 			background: #3d4249 url("images/overlay.png");
 		}
+		
+		#footer-wrapper .row h3 {
+			text-align: center;
+			font-size: 1.5em;
+			padding-bottom: 1em;
+		}
 
 /* Logo */
 
@@ -1905,6 +1911,7 @@
 
 			form ul.actions {
 				margin-top: 0;
+				text-align: center;
 			}
 
 		/* Feature List */
@@ -2053,12 +2060,13 @@
 		/* Nav */
 
 			#nav {
-				position: absolute;
+				position: fixed;
 				display: block;
-				top: 2.5em;
+				top: 1.5em;
 				left: 0;
 				width: 100%;
 				text-align: center;
+				z-index: 10;
 			}
 
 				#nav > ul {
@@ -2215,8 +2223,13 @@
 		/* Footer */
 
 			#footer header.style1 {
-				padding-bottom: 0;
+				padding: 0;
 			}
+			
+				#footer header.style1 p {
+					float: left;
+					color: #a6abb3;
+				}
 
 			#footer hr {
 				margin: 6em 0 6em 0;
@@ -2712,6 +2725,13 @@
 				#content header.style1 {
 					padding-bottom: 2.5em;
 				}
+				
+		/* Highlights */
+		
+			#highlights .feature-list h3 {
+				margin: 0;
+				padding: 0.5% 0 0;
+			}
 
 		/* Footer */
 
