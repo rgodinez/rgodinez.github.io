@@ -5,6 +5,8 @@
 	Escape Velocity by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
+	Modified by Razor Edge Marketing
 */
 
 /* Reset */
@@ -1621,6 +1623,7 @@
 		background: #171719 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
+		padding-top: 3em;
 	}
 
 		#footer-wrapper h1, #footer-wrapper h2, #footer-wrapper h3, #footer-wrapper h4, #footer-wrapper h5, #footer-wrapper h6, #footer-wrapper strong, #footer-wrapper b, #footer-wrapper a {
@@ -1690,15 +1693,16 @@
 
 		#footer-wrapper header.style1 h2 {
 			color: #fff;
+			padding-bottom: 1em;
 		}
 
 		#footer-wrapper header.style1 .p {
 			color: inherit;
 		}
 
-		#footer-wrapper .feature-list section {
-			border-top-color: #333;
-			border-top-color: rgba(255, 255, 255, 0.05);
+		#footer-wrapper img {
+			border: #cc0f0f outset 3px;
+			border-radius: 50%;
 		}
 
 		#footer-wrapper .feature-list h3:before {
@@ -2227,7 +2231,6 @@
 			}
 			
 				#footer header.style1 p {
-					float: left;
 					color: #a6abb3;
 				}
 
@@ -2390,7 +2393,8 @@
 
 				header.style1 p {
 					display: block;
-					margin: 0;
+					margin: 1em;
+					font-size: 1.5em;
 				}
 
 		/* Button */
@@ -2452,6 +2456,7 @@
 
 			.feature-list p {
 				margin: 0 0 0 48px;
+				font-size: 1.25em;
 			}
 
 		/* Box */
@@ -2702,6 +2707,10 @@
 				padding: 1em 2em 1em 2em !important;
 				margin: 0 auto;
 			}
+				
+				#intro .style1 {
+					font-size: 1.25em;
+				}
 
 				#intro .style2 {
 					font-size: 1.5em;
@@ -2731,6 +2740,16 @@
 			#highlights .feature-list h3 {
 				margin: 0;
 				padding: 0.5% 0 0;
+				font-size: 1em;
+			}
+			
+			#highlights .highlight p, #highlights .highlight h3 {
+				font-size: 1.3em;
+			}
+			
+			#highlights .highlight .image.featured img {
+				height: auto;
+				max-width: 100%;
 			}
 
 		/* Footer */
