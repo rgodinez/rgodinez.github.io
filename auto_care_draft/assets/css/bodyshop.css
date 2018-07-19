@@ -1522,6 +1522,10 @@
 			-webkit-font-smoothing: antialiased;
 			-moz-osx-font-smoothing: grayscale;
 		}
+		
+		#intro-wrapper .icon:before {
+			font-size: 3em;
+		}
 
 		.icon > .label {
 			display: none;
@@ -1569,12 +1573,12 @@
 			}
 
 		.wrapper.style1 {
-			background: #cc0f0f url("images/overlay.png");
+			background: silver url("images/overlay.png");
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #cc0f0f url("images/overlay.png");
+				background: silver url("images/overlay.png");
 				color: #fff;
 			}
 
