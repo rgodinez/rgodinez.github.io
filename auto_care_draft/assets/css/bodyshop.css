@@ -1573,7 +1573,7 @@
 			}
 
 		.wrapper.style1 {
-			background: silver url("images/overlay.png");
+			background: grey url("images/overlay.png");
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -1609,8 +1609,9 @@
 			}
 
 	#header-wrapper {
-		background: grey;
+		background-image: url(../../images/bg1.jpeg);
 		background-size: cover;
+		background-position: center;
 	}
 
 		#header-wrapper:before {
@@ -1693,6 +1694,10 @@
 		#footer-wrapper .title {
 			background: #171719 url("images/overlay.png");
 			color: #eee;
+		}
+		
+		#footer-wrapper #three.title {
+			background: none;
 		}
 
 		#footer-wrapper header.style1 h2 {
@@ -1966,7 +1971,7 @@
 				}
 
 			.feature-list p {
-				margin: 0 0 0 5em;
+				
 			}
 			
 			.feature-list.small {
@@ -2091,7 +2096,7 @@
 		/* Nav */
 
 			#nav {
-				position: fixed;
+				position: absolute;
 				display: block;
 				top: 1.5em;
 				left: 0;
