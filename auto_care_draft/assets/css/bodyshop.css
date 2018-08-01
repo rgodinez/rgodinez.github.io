@@ -1735,7 +1735,7 @@
 	
 	#logo h2 {
 		padding: 5px 10px;
-		font-size: 1.1em;
+		font-size: 1.3em;
 		color: #fff;
 	}
 
@@ -2048,7 +2048,7 @@
 			}
 
 			#intro-wrapper {
-				padding-bottom: 8em;
+				padding: 4em 0;
 				max-height: 55vh;
 			}
 
