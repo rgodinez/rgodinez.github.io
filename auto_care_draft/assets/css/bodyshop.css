@@ -2393,13 +2393,17 @@
 			}
 
 			h2, h3, h4, h5, h6 {
-				font-size: 1.2em;
+				font-size: 1.75em;
 				letter-spacing: 0.05em;
 				margin: 0 0 1em 0;
 			}
 
 			hr {
 				margin: 1em 0 1em 0;
+			}
+			
+			p {
+				font-size: 1.5em;
 			}
 
 		/* Section/Article */
@@ -2712,6 +2716,7 @@
 
 			#logo {
 				text-align: center;
+				background-color: rgba(0, 0, 0, 0.8);
 			}
 
 				#logo h1 {
@@ -2775,8 +2780,8 @@
 		
 			#highlights .feature-list h3 {
 				margin: 0;
-				padding: 0.5% 0 0;
-				font-size: 1em;
+				
+				font-size: 1.25em;
 			}
 			
 			#highlights .highlight p, #highlights .highlight h3 {
